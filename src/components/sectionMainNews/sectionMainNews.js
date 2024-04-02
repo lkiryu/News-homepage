@@ -4,7 +4,7 @@ import mainNewsImageMobile from '../../images/image-web-3-mobile.jpg'
 
 const SectionMainNews = () => {
     return (
-        <section className="main-news">
+        <div className="main-news">
             <picture>
                 <source srcSet={mainNewsImageDesktop} media="(min-width:800px)"></source>
                 <img src={mainNewsImageMobile} alt="illustration main news"></img>
@@ -17,7 +17,7 @@ const SectionMainNews = () => {
                     <a href="/" target="_blank">Read more</a>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
