@@ -3,6 +3,8 @@ import retroPcs from '../../images/image-retro-pcs.jpg'
 import topLaptops from '../../images/image-top-laptops.jpg'
 import gamingGrowth from '../../images/image-gaming-growth.jpg'
 
+import './topNews.css'
+
 const TopNews = () => {
     return (
         <div className="top-news">
