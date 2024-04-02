@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 40px 0;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-list .nav-link{
+    color: hsl(236, 13%, 42%);
+    margin-right: 40px;
+    transition: 0.3s ease-in;
+}
+
+.nav-list .nav-link:last-child{
+    margin-right: 0;
+}
+
+.nav-list .nav-link:hover{
+    color: hsl(5, 85%, 63%);
+}
