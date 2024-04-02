@@ -1,6 +1,7 @@
 import Header from './components/header/header';
-import SectionMainNews from './components/sectionMainNews/sectionMainNews';
-import SectionOtherNews from './components/sectionOtherNews/sectionOtherNews';
+import MainNews from './components/mainNews/sectionMainNews';
+import OtherNews from './components/otherNews/sectionOtherNews';
+import TopNews from './components/topNews/topNews';
 
 import './App.css';
 
@@ -9,11 +10,13 @@ function App() {
     <main className='container'>
       <Header />
 
-      <SectionMainNews />
+      <section>
+        <MainNews />
+        
+        <OtherNews />
+      </section>
 
-      <SectionOtherNews />
-
-      
+      <TopNews />
     </main>
   );
 }

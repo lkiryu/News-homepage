@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionOtherNews = () => {
+const OtherNews = () => {
     return(
         <div className="other-news">
             <h2 className="title">New</h2>
@@ -20,4 +20,4 @@ const SectionOtherNews = () => {
     )
 }
 
-export default SectionOtherNews
+export default OtherNews

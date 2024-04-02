@@ -2,7 +2,7 @@ import React from "react";
 import mainNewsImageDesktop from '../../images/image-web-3-desktop.jpg'
 import mainNewsImageMobile from '../../images/image-web-3-mobile.jpg'
 
-const SectionMainNews = () => {
+const MainNews = () => {
     return (
         <div className="main-news">
             <picture>
@@ -21,4 +21,4 @@ const SectionMainNews = () => {
     )
 }
 
-export default SectionMainNews
+export default MainNews
