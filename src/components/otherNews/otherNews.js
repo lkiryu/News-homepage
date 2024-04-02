@@ -1,5 +1,7 @@
 import React from "react";
 
+import './otherNews.css'
+
 const OtherNews = () => {
     return(
         <div className="other-news">

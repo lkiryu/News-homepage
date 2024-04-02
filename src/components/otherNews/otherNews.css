@@ -1,0 +1,40 @@
+.other-news{
+    background-color: hsl(240, 100%, 5%);
+    padding: 40px 30px;
+    height: 500px;
+}
+
+.other-news h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.other-news .news{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+
+.other-news .news:last-child{
+    border-bottom: none;
+}
+
+.other-news .news a{
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+    transition: 0.3s ease-in;
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+.other-news .news a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+.other-news .news .description{
+    color: hsl(233, 8%, 79%);
+    margin-bottom: 20px;
+}
