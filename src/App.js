@@ -1,5 +1,5 @@
 import Header from './components/header/header';
-import MainNews from './components/mainNews/sectionMainNews';
+import MainNews from './components/mainNews/mainNews';
 import OtherNews from './components/otherNews/sectionOtherNews';
 import TopNews from './components/topNews/topNews';
 
@@ -12,7 +12,7 @@ function App() {
 
       <section>
         <MainNews />
-        
+
         <OtherNews />
       </section>
 

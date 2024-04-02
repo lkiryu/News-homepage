@@ -2,6 +2,8 @@ import React from "react";
 import mainNewsImageDesktop from '../../images/image-web-3-desktop.jpg'
 import mainNewsImageMobile from '../../images/image-web-3-mobile.jpg'
 
+import './mainNews.css'
+
 const MainNews = () => {
     return (
         <div className="main-news">
