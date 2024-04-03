@@ -35,3 +35,21 @@ section{
     width: 60vw;
     margin-bottom: 60px;
 }
+
+@media(max-width:1500px){
+    section{
+        width: 80vw;
+    }
+}
+
+@media(max-width:1200px){
+    section{
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px){
+    section{
+        flex-direction: column;
+    }
+}

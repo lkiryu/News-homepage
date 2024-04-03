@@ -8,6 +8,7 @@
 .top-news .news{
     display: flex;
     width: 400px;
+    margin-right: 20px;
 }
 
 .top-news .news img{
@@ -40,4 +41,32 @@
 
 .top-news .info .description{
     color: hsl(236, 13%, 42%);
+}
+
+@media(max-width:1500px){
+    .top-news{
+        width: 80vw;
+    }
+}
+
+@media(max-width:1200px){
+    .top-news{
+        width: 90vw;
+    }
+}
+
+@media(max-width:800px){
+    .top-news{
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+}
+
+@media(max-width:500px){
+    .top-news .news{
+        width: 300px;
+        margin-right: 0;
+    }
 }

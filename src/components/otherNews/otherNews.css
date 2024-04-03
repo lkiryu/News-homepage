@@ -38,3 +38,36 @@
     color: hsl(233, 8%, 79%);
     margin-bottom: 20px;
 }
+
+@media(max-width:1200px){
+    .other-news{
+        height: 430px;
+        padding: 20px;
+    }
+
+    .other-news h2{
+        margin-bottom: 0;
+    }
+
+    .other-news .news a{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .other-news .news .description{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:800px){
+    .other-news{
+        height: 100%;
+        width: 400px;
+    }
+}
+
+@media(max-width:500px){
+    .other-news{
+        width: 300px;
+    }
+}
